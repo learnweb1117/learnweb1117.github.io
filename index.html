@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <title>WEB-LEARNING</title>
+    <link rel="shortcut icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" 
+    href="css/font-awesome.css">
+</head>
+
+<body>
+<style>
+  @font-face {
+    font-family: OCR_OneCTT; /* Гарнитура шрифта */
+    src: url(./Font/17498.ttf); /* Путь к файлу со шрифтом */
+   }
+body {
+    font-family: 'OCR_OneCTT';
+    height: 100vh;
+    box-shadow: 0 -200px 100px -120px #e08b93 inset;
+    animation: background 6s infinite alternate;
+    font-weight: 800;
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.welcome img {
+    width: 400px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.welcome h2 {
+    margin-top: 40px;
+}
+.welcome .btn {
+    margin-top: 40px;
+    height: 100px;
+    width: 300px;
+    background: #33b4fa;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    border-radius: 0px;
+    z-index: 5;
+    position: absolute;
+    
+}
+.welcome input {
+    margin-top: 40px;
+    height: 100px;
+    width: 300px;
+    background: #33b4fa;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 1;
+}
+.btn {
+    background: darken(red, 1.5%);
+    font-weight: 100;
+}
+    svg {
+      height: 99px;
+      left: 0;
+      position: absolute;
+      top: 0; 
+      width: 100%; 
+    }
+    
+    rect {
+      fill: none;
+      stroke: #fff;
+      stroke-width: 2;
+      stroke-dasharray: 422, 0;
+      transition: all 0.35s linear;
+    }
+    .btn:hover {
+        background: rgba(red, 0);
+        letter-spacing: 1px;
+    }
+    .btn:hover rect {
+          stroke-width: 5;
+          stroke-dasharray: 15, 310;
+          stroke-dashoffset: 48;
+          transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+          border-radius: 30px;
+        }
+        p {
+          position: absolute;
+          bottom: 0;
+        }
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 var(--hover); }
+  }
+
+  
+@keyframes background {
+    50% {
+      background: skyblue;
+      box-shadow: 0 -200px 100px -100px #0e375f inset;
+    }
+  }
+
+  </style>
+    <section class="welcome">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <img src="img/Logo1.png" alt="">
+          </div>
+          <div class="col-lg-12">
+          <h1>Добро пожаловать!</h1>
+          <h2>Готовы стать профессиональным web-разработчиком?</h2>
+          </div>
+        
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <form action="index_submit.php" method="POST">
+        <input type="password" name="password" placeholder="Введите пароль" value="">
+        </form>
+        
+    <div class="btn">
+        <svg>
+            <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+          </svg>
+      Да
+    </div>
+      </div>
+     
+    </section>
+    <p>&copy;Copyright 2019</p>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery_3.2.1.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+				<script src="js/script.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- Future!Soft2018?123 -->
